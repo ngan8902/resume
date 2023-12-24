@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext'); */
 
 html {
   position: relative;
@@ -76,7 +76,7 @@ a, a:hover {
     }
   }
 
-  &__img {
+  .img {
     width: 150px;
     height: 150px;
     margin-left: auto;
@@ -103,7 +103,7 @@ a, a:hover {
 
   }
 
-  &__cnt {
+  .cnt {
     margin-top: -35px;
     text-align: center;
     padding: 0 20px;
@@ -111,14 +111,14 @@ a, a:hover {
     transition: all .3s;
   }
 
-  &__name {
+    .name {
     font-weight: 700;
     font-size: 24px;
     color: #6944ff;
     margin-bottom: 15px;
   }
 
-  &__txt {
+    .txt {
     font-size: 18px;
     font-weight: 500;
     color: #324e63;
@@ -131,14 +131,14 @@ a, a:hover {
 
   }
 
-  &-loc {
+  .loc {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     font-weight: 600;
 
-    &__icon {
+    &.icon {
       display: inline-flex;
       font-size: 27px;
       margin-right: 10px;
@@ -147,14 +147,14 @@ a, a:hover {
 
   }
 
-  &-inf {
+  .inf {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 35px;
 
-    &__item {
+    &.item {
       padding: 10px 35px;
       min-width: 150px;
 
@@ -165,28 +165,28 @@ a, a:hover {
 
     }
 
-    &__title {
+    .title {
       font-weight: 700;
       font-size: 27px;
       /* color: #6944ff; */
       color: #324e63;
     }
 
-    &__txt {
+    .txt {
       font-weight: 500;
       margin-top: 7px;
     }
 
   }
 
-  &-social {
+  .social {
     margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
-    &__item {
+    &.item {
       display: inline-flex;
       width: 55px;
       height: 55px;
@@ -257,7 +257,7 @@ a, a:hover {
 
   }
 
-  &-ctr {
+  .ctr {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,7 +269,7 @@ a, a:hover {
 
   }
 
-  &__button {
+  .button {
     background: none;
     border: none;
     font-family: 'Quicksand', sans-serif;
